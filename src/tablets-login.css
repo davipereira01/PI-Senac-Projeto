@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    .container {
+        display: flex;
+        width: 98vw;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .logo-pacnet {
+        margin-left: 20%;
+        /* margin-top: 0rem; */
+        /* width: 100%; */
+        /* margin: 0 auto; */
+        width: 50%;
+    }
+
+    #box-action {
+        background: linear-gradient(180deg, #3D3DFF 0%, rgba(61, 61, 255, 0) 100%);
+        width: 104%;
+        margin: 0;
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+}

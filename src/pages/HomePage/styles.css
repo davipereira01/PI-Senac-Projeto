@@ -1,0 +1,112 @@
+
+.teste {
+
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+
+#cards-container {
+
+    display: flex;
+    width: calc(100% - 40px);
+    margin-top: 6rem;
+    justify-content: space-between;
+    gap: 17px;
+
+
+}
+
+.grid-container {
+
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid #d7d6d6;
+    background-color: white;
+
+
+   
+
+   }
+
+.section-container {
+    width: 70%;
+    margin-left: 3%;
+    border-right: 1px solid rgb(224, 224, 224);
+    background-color: transparent;
+}
+
+
+
+.section-lojas {
+
+   
+    
+    min-height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin-top: 2rem;
+
+
+}
+
+.section-faturamento {
+
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 140px;
+    background-color: transparent;
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+    
+}
+
+.section-melhores-lojas {
+
+    
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 140px;
+    background-color: transparent;
+
+    
+}
+
+.section-classificação-produtos {
+    
+    
+    height: 215px;
+    width: 30%;
+    display: flex;
+    margin-top: 3rem;
+    background-color: transparent;
+
+
+}
+
+.section-title {
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+:root {
+    --primary: #00B37E;
+    --background: white;
+    --text: #FFF;
+    --caption: #8D8D99;
+    --gray: #E1E1E6;
+    --background-light: rgba(255, 255, 255, 0.05);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    
+  
+    
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      font: size 24px;
+      margin-right: 7px;
+
+    }
+  }
+
+  
+
+
