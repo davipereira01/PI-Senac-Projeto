@@ -5,9 +5,9 @@ import { GoogleAuthProvider, signInWithPopup, User} from 'firebase/auth';
 import { auth } from '../../services/firebase';
 import React from 'react';
 import { LoginForm } from '../../components/LoginForm/login-form';
-import {HomePage}  from '../HomePage/index';
 import { GoogleAuthBtn } from '../../components/GoogleAuthBtn/googleAuthBtn';
 import FooterComponent from '../../components/Footer/footer';
+import '../SignInPage2/';
 
 
 
@@ -21,38 +21,15 @@ import FooterComponent from '../../components/Footer/footer';
 
 
 
-export function SignInPage() {
-
-  
-  // const for set the result user from the login
-  const [user, setUser] = useState<User>({} as User);
-  
-  
-  function handleGoogleSignIn() {
-    const provider = new GoogleAuthProvider();
-    
-
-    signInWithPopup(auth, provider)
-    .then(result => {
-      setUser(result.user);
-      localStorage.setItem('user', JSON.stringify(user)); // save the user in the local storage
-    })
-    .catch(error => {
-      console.log(error);
-    })
-   
+export function SignInPage2() {
 
 
-    
-    
-  }
 
   
 
     return (
 
-      
-      <div className='container'>
+        <div className='container-capsule'>
      
         <div className='box-container' id='box-form'>
 
@@ -91,7 +68,7 @@ export function SignInPage() {
 
          </div>
       </div>
+     
       
     )
   }
-

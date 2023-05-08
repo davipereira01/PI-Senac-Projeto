@@ -5,9 +5,10 @@ import './mobile-login.css'
 import './desktop-login.css'
 import './tablets-login.css'
 import './styles/global.scss'
-import '../src/pages/HomePage/styles.css'
-import './pages/HomePage/styles.css'
+import '../src/pages/FeedPage/FeedPage.scss'
+import '../src/components/Posts/Posts.scss'
 import AppRoutes from './AppRoutes'
+import './App.scss';
 
 
 

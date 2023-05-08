@@ -3,8 +3,8 @@
     .container {
         display: flex;
         width: 98vw;
-        flex-direction: column-reverse;
         align-items: center;
+        flex-direction: column;
     }
 
     .logo-pacnet {
@@ -21,6 +21,22 @@
         margin: 0;
         padding: 0;
         margin-top: 5rem;
+    }
+
+    #box-form {
+        width: 30rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background: #ffffff;
+        box-shadow: 24px 24px 43px #bebebe, -24px -24px 43px #ffffff;
+        margin-top: 3rem;
+        height: 35rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
 }

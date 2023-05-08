@@ -63,7 +63,7 @@ export function GoogleAuthBtn() {
 
                 <div className="wrap-input">
 
-                  <button type='button'  className="input-google" onClick={handleGoogleSignIn}> <img src={GoogleLogo} className='Google-logo' alt="google logo" /> LogIn com o Google</button>
+                  <button type='button'  className="input-google" onClick={handleGoogleSignIn}> <img src={GoogleLogo} className='Google-logo' alt="google logo" /> Entrar com o Google</button>
 
                 </div>
                 

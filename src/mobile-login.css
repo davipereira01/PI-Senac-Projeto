@@ -14,8 +14,8 @@
       display: flex;
       width: 98vw;
       justify-content: space-between;
-      flex-direction: column-reverse;
       align-items: center;
+      flex-direction: column;
     }
 
     #box-action {
@@ -124,16 +124,18 @@
     }
 
     #box-form {
-      width: 100vw;
+      width: 92vw;
       border-radius: 20PX;
       background-color: none;
+      margin-left: 1rem;
+  }
       
 
       
     }
 
     #box-form h1 {
-      margin-top: 1rem;
+      margin-top: 2rem;
   }
 
     .text-center {

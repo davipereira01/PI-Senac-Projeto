@@ -8,12 +8,12 @@ import {
 } from 'react-router-dom';
 
 import { SignInPage } from './pages/SignInPage';
-import HomePage  from './pages/HomePage';
-import FeedPage  from './pages/FeedPage';
-import StorePage from './pages/StorePage';
-import Loja from './pages/StorePage/loja/Loja';
+import { SignInPage2 } from './pages/SignInPage2';
+import { FeedPage } from './pages/FeedPage';
 
 import { AuthProvider, AuthContext} from './pages/contexts/auth'; // importa o contexto de autenticação
+import { CadastroPage } from './pages/CadastroPage/cadastroPage';
+
 
 const appRoutes = () => {
     const Private = ({ children }) => {
@@ -47,12 +47,11 @@ const appRoutes = () => {
                 <Routes>
                     
                     <Route exact path="/login" element= {<SignInPage />} />
-                    <Route exact path="/" element={ <Private><FeedPage /></Private> } />
-                    <Route exact path="/home" element={ <Private><HomePage /></Private> } />
-                    <Route exact path = "/store" element = { <Private><StorePage /></Private> } />
-                    <Route exact path = "/lojas" element = { <Private><Loja /></Private> } />
+                    <Route exact path="/login2" element= {<SignInPage2 />} />
+                    <Route exact path="/" element= {<FeedPage />} />
+                    <Route exact path="cadastro" element= {<CadastroPage />} />
                     
-                    <Route exact path = "/:storeId" element = { <Private><Loja /></Private> } />
+                   
                 </Routes>
             </AuthProvider>  
         </Router>

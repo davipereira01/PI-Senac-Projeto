@@ -1,54 +1,31 @@
-
-import React, { useEffect, useReducer } from "react";
-import { Header } from "../../components/Header/header";
-import UsersService from "../../services/usersService";
-
-
-
-const FeedPage = () => {
+import React from 'react';
+import '../SignInPage2/SignInPage2.scss';
+import Header from '../../components/Header/header';
+import StoryComponent from '../../components/Story/Story';
+import PostsComponent from '../../components/Posts/Posts';
 
 
-    const [users, dispatchUsers] = useReducer((state, action) => {
-        switch (action.type) {
-          case "SET_USERS":
-            return action.payload;
-          default:
-            return state;
-        }
-      }, []);
 
-      const fetchUsers = async () => {
-        try {
-          const { data: usersResponse } = await UsersService.getUsers();
-          dispatchUsers({ type: "SET_USERS", payload: usersResponse });
-        } catch (error) {
-          console.error("Erro ao obter usuários");
-        }
-      };
+export function FeedPage() {
 
-      useEffect(() => {
+  return (
 
-        fetchUsers();
-   
+
+    <div className="layout">
+      
+      <Header userId={1} />
+
+      <main>
+        <StoryComponent />
+        <PostsComponent />
+      </main>
+      
+      <div className="explorar"><h3>Explorar</h3></div>
+    </div>
     
-      }, []);
+     
+      
 
-  
-  
-  
-    return (
-      <React.Fragment>
-
-{users.map((user) => (
-          <Header key={user.id}
-            user={user}
-
-          />
-
-        ))}
-        
-      </React.Fragment>
-    );
-  };
-  
-  export default FeedPage;
+      
+    )
+  }

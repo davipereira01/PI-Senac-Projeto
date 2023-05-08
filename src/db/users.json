@@ -1,14 +1,102 @@
 [
-    {
+  {
       "id": 1,
       "firstname": "Natane",
       "lastname": "De Oliveira Santos",
-      
       "email": "suporte@suporte.com.br",
+      "senha": "senha123456789",
       "img": "https://i.imgur.com/Jq0Ean6.jpeg",
-      "sex": "f"
-
-    }
-    
-  
+      "sex": "f",
+      "conections": [2, 3, 4, 5, 6, 7, 8]
+  },
+  {
+      "id": 2,
+      "firstname": "Lucas",
+      "lastname": "Silva",
+      "email": "lucas.silva@gmail.com",
+      "senha": "senha123",
+      "img": "../src/assets/user1.png",
+      "sex": "m",
+      "conections": [1, 3, 4, 5]
+  },
+  {
+      "id": 3,
+      "firstname": "Bruna",
+      "lastname": "Fernandes",
+      "email": "bruna.fernandes@yahoo.com.br",
+      "senha": "123456",
+      "img":"../src/assets/user5.png",
+      "sex": "f",
+      "conections": [1, 2, 4, 6]
+  },
+  {
+      "id": 4,
+      "firstname": "Vanessa",
+      "lastname": "Lima",
+      "email": "gustavo.souza@hotmail.com",
+      "senha": "senha12345",
+      "img": "../src/assets/user8.png",
+      "sex": "m",
+      "conections": [1, 2, 3, 5, 6]
+  },
+  {
+      "id": 5,
+      "firstname": "Marina",
+      "lastname": "Silva",
+      "email": "marina.silva@gmail.com",
+      "senha": "senha123456",
+      "img": "../src/assets/user3.png",
+      "sex": "f",
+      "conections": [1, 2, 4, 7, 8]
+  },
+  {
+      "id": 6,
+      "firstname": "Heloisa",
+      "lastname": "Moura",
+      "email": "rafael.oliveira@yahoo.com.br",
+      "senha": "123456789",
+      "img": "../src/assets/user7.png",
+      "sex": "f",
+      "conections": [1, 3, 4, 7, 9]
+  },
+  {
+      "id": 7,
+      "firstname": "Isabella",
+      "lastname": "Pereira",
+      "email": "isabella.pereira@hotmail.com",
+      "senha": "senha1234",
+      "img": "https://i.imgur.com/RqujWtt.jpeg",
+      "sex": "f",
+      "conections": [1, 5, 6, 8, 9]
+  },
+  {
+    "id": 8,
+    "firstname": "Vinícius",
+    "lastname": "Souza",
+    "email": "vinicius.souza@gmail.com",
+    "senha": "senha1234567",
+    "img": "../src/assets/user4.png",
+    "sex": "m",
+    "conections": [1, 5, 7, 9]
+},
+{
+    "id": 9,
+    "firstname": "Fernanda",
+    "lastname": "Rodrigues",
+    "email": "fernanda.rodrigues@yahoo.com.br",
+    "senha": "1234567",
+    "img": "https://i.imgur.com/eVY3K19.jpeg",
+    "sex": "f",
+    "conections": [6, 7, 8, 10]
+},
+{
+    "id": 10,
+    "firstname": "Equipe",
+    "lastname": "",
+    "email": "equipe@hotmail.com",
+    "senha": "senha12345",
+    "img": "../src/assets/user6.png",
+    "sex": "m",
+    "conections": [3, 5, 9]
+}
 ]
