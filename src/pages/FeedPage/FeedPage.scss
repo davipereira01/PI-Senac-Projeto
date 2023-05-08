@@ -1,0 +1,44 @@
+.story-box {
+    height: 5rem;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: red;
+    width: 100%;
+    
+}
+
+.explorar {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 8rem;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #e0e0e0;  
+ 
+}
+
+@media only screen and (max-width: 767px) {
+    /* Estilos para celular aqui */
+
+    main {
+
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+  }
+
+  main {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 80%;
+    position: relative;
+}
+
+.layout {
+    position:relative;
+    padding-bottom: 10rem;
+}
+

@@ -1,0 +1,33 @@
+/* styles.css */
+.PopoverTrigger {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 2rem;
+    margin-left: 3rem;
+    animation-name: k-daNevH;
+  }
+  
+  .PopoverContent {
+    border-radius: 4px;
+    padding: 20px;
+    width: 260px;
+    background-color: white;
+    box-shadow: rgb(14 18 22 / 35%) 0px 10px 38px -10px, rgb(14 18 22 / 20%) 0px 10px 20px -15px;
+    animation-duration: 400ms;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
+    color: black;
+    
+  }
+  
+  .PopoverArrow {
+    fill: white;
+  }
+
+  .question-mark {
+    color: black;
+    font-size: 1.5rem;
+    
+  }
+
+ 

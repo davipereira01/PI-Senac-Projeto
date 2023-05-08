@@ -1,0 +1,41 @@
+[
+     
+      {
+        "id": 1,
+        "title": "Procurando",
+        "content": "Procurando Pessoas para ir no museu do saber! Alguém anima",
+        "idAuthor": 3,
+        "date": "2023-05-07",
+        "img": "../src/assets/img-museu.png", 
+        "reactions": 1      
+      },
+      {
+        "id": 2,
+        "title": "Evento",
+        "content": "Esse evento está acontecendo próximo a você e pode ser do seu interesse!",
+        "idAuthor": 10,
+        "date": "2023-05-07",
+        "img": "../src/assets/evento-img.png", 
+        "reactions": 1      
+      },
+      {
+        "id": 3,
+        "title": "Cinema",
+        "content": "Cinema cult na liberdade, alguém afim?",
+        "idAuthor": 6,
+        "date": "2023-05-07",
+        "img": "", 
+        "reactions": 1      
+      },
+      {
+        "id": 4,
+        "title": "Minha primeira postagem",
+        "content": "Experimentando novas possibilidades na cozinha!",
+        "idAuthor": 4,
+        "date": "2023-05-07",
+        "img": "../src/assets/comida-img.png", 
+        "reactions": 1      
+      }
+    
+    ]
+  

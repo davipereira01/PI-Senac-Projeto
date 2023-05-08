@@ -1,0 +1,115 @@
+.card-loja {
+
+    width: 14rem;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    height: 7rem;
+
+    margin-bottom: 1rem;
+    transition: 1s;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    color: black;
+    background-image: url(/src/assets/pattern.svg);
+
+}
+
+
+
+
+
+
+.container-store-img {
+    background-color: #f9f9f9;
+    width: 28%;
+    height: 61%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+
+    
+        img {
+            
+            width: 100%;
+            border-radius: 50%;
+            height: 100%;
+            
+        }
+    
+}
+
+.image-loja {
+    border-radius: 100%;
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card-loja {
+        margin-left: 3%;
+        margin-top: 2rem;
+        width: 42vw;
+        border-radius: 10px;
+        padding: 15px;
+        height: 12rem;
+        background: white;
+        box-shadow: 6px 6px 24px #e3e3e3, -6px -6px 24px #fdfdfd;
+        color: black;
+        display: flex;
+        align-items: center;
+        /*background: #FF8008;  /* fallback for old browsers */
+        /*background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+        /*background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #EC9B3D, orange);
+        background-image: url(/src/assets/pattern.svg);
+
+
+        
+        
+    
+        color:white;
+
+    i {
+        color:black;
+    }
+
+    }
+
+    .container-store-img {
+
+        width: 50%;
+        height: 43%;
+    background: transparent;
+    img {
+        border-radius:50%;
+    }
+
+
+    
+  
+    }
+
+
+
+    .image-loja {
+       
+        height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    }
+
+
+
+}

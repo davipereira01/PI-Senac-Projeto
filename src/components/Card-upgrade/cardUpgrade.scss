@@ -1,0 +1,16 @@
+.card-upgrade {
+    background-image: url(../../assets/card-upgrade.svg);
+    width: 444px;
+    height: 248px;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-upgrade {
+       
+        display: none;
+
+    }
+
+    
+}
