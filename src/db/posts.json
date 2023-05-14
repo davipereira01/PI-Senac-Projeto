@@ -1,41 +1,105 @@
 [
-     
+  {
+      "id": 1,
+      "title": "Procurando",
+      "content": "Procurando Pessoas para ir no museu do saber! Alguém anima",
+      "idAuthor": 3,
+      "date": "2023-05-07",
+      "img": "../src/assets/img-museu.png", 
+      "reactions": 1,
+      "category": "cultura"
+  },
+  {
+      "id": 2,
+      "title": "Evento",
+      "content": "Esse evento está acontecendo próximo a você e pode ser do seu interesse!",
+      "idAuthor": 10,
+      "date": "2023-05-07",
+      "img": "../src/assets/evento-img.png", 
+      "reactions": 1,
+      "category": "vida noturna"
+  },
+  {
+      "id": 3,
+      "title": "Cinema",
+      "content": "Cinema cult na liberdade, alguém afim?",
+      "idAuthor": 6,
+      "date": "2023-05-07",
+      "img": "", 
+      "reactions": 1,
+      "category": "cultura"
+  },
+  {
+      "id": 4,
+      "title": "Minha primeira postagem",
+      "content": "Experimentando novas possibilidades na cozinha!",
+      "idAuthor": 4,
+      "date": "2023-05-07",
+      "img": "../src/assets/comida-img.png", 
+      "reactions": 1,
+      "category": "vida cotidiana"
+  },
+  {
+      "id": 5,
+      "title": "Minha primeira postagem",
+      "content": "Experimentando novas possibilidades na cozinha!",
+      "idAuthor": 1,
+      "date": "2023-05-07",
+      "img": "../src/assets/comida-img.png", 
+      "reactions": 1,
+      "category": "vida cotidiana"
+  },
+  {
+      "id": 6,
+      "title": "Teste",
+      "content": "Conferencia sobre Python!",
+      "idAuthor": 11,
+      "date": "2023-05-07",
+      "img": "../src/assets/phyton.png", 
+      "reactions": 1,
+      "category": "tecnologia"
+  },
+  {
+      "id": 7,
+      "title": "Teste2",
+      "content": "Palestra sobre tecnologia!",
+      "idAuthor": 12,
+      "date": "2023-05-07",
+      "img": "../src/assets/tecnologia-post.png", 
+      "reactions": 1,
+      "category": "tecnologia"
+  },
+  {
+      "id": 8,
+      "title": "Teste3",
+      "content": "Hackatoon! Alguém anima?",
+      "idAuthor": 13,
+      "date": "2023-05-07",
+      "img": "../src/assets/hackaton.png", 
+      "reactions": 1,
+      "category": "tecnologia"
+  },
       {
-        "id": 1,
-        "title": "Procurando",
-        "content": "Procurando Pessoas para ir no museu do saber! Alguém anima",
-        "idAuthor": 3,
-        "date": "2023-05-07",
-        "img": "../src/assets/img-museu.png", 
-        "reactions": 1      
-      },
-      {
-        "id": 2,
-        "title": "Evento",
-        "content": "Esse evento está acontecendo próximo a você e pode ser do seu interesse!",
-        "idAuthor": 10,
-        "date": "2023-05-07",
-        "img": "../src/assets/evento-img.png", 
-        "reactions": 1      
-      },
-      {
-        "id": 3,
-        "title": "Cinema",
-        "content": "Cinema cult na liberdade, alguém afim?",
-        "idAuthor": 6,
-        "date": "2023-05-07",
-        "img": "", 
-        "reactions": 1      
-      },
-      {
-        "id": 4,
+        "id": 9,
         "title": "Minha primeira postagem",
-        "content": "Experimentando novas possibilidades na cozinha!",
-        "idAuthor": 4,
+        "content": "Feira de técnologia!",
+        "idAuthor": 14,
         "date": "2023-05-07",
-        "img": "../src/assets/comida-img.png", 
-        "reactions": 1      
+        "img": "../src/assets/feira.png", 
+        "reactions": 1,
+        "category": "tecnologia"     
+      },
+      {
+        "id": 10,
+        "title": "Minha primeira postagem",
+        "content": "Estou em Monte verde, Minas Gerais, procurando pessoas locais para me mostrar a cidade!",
+        "idAuthor": 2,
+        "date": "2023-05-07",
+        "img": "../src/assets/minas.png", 
+        "reactions": 1,
+        "category": "cultura"     
       }
+
     
     ]
   

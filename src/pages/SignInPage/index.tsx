@@ -8,6 +8,7 @@ import { LoginForm } from '../../components/LoginForm/login-form';
 import {HomePage}  from '../HomePage/index';
 import { GoogleAuthBtn } from '../../components/GoogleAuthBtn/googleAuthBtn';
 import FooterComponent from '../../components/Footer/footer';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
@@ -59,30 +60,18 @@ export function SignInPage() {
         
           <span className="login-form-title"><h1>Bem vindo!</h1></span>
           <div className='container-login'>
-          
-
-
-          
-            
-            
+             
             
               <div className="login-form">
                 <LoginForm />
               </div>
-
             
           </div>
-
-          
-
-
-
-
 
         </div>
 
         <div className="cadastro-box">
-                <p>Ainda não tem conta? Cadastre-se</p>
+                <p>Ainda não tem conta? <Link to="/cadastro"><p>Cadastre</p></Link></p>
               </div>
 
          <div className="footer-container">

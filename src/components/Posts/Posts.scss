@@ -1,9 +1,8 @@
+/* Estilos padrão para desktop */
 .capsule {
     margin-top: 3rem;
-    /* background-color: red; */
-    margin-left: 5rem;
-    margin-right: 5rem;
-    
+    margin-left: 12rem;
+    margin-right: 12rem;
     border: solid 1px #dddbdb;
 }
 
@@ -15,26 +14,24 @@
 .post-footer {
     border-bottom: solid 1px #d6d6d6;
     height: 5rem;
-           svg {
-            height: 2rem;
-            width: 2rem;
-           }
+    svg {
+        height: 2rem;
+        width: 2rem;
+    }
 }
-.icon-container {
 
+.icon-container {
     display: flex;
     width: 6rem;
-    /* background-color: red; */
     justify-content: space-between;
     margin-left: 1rem;
     padding-top: 1rem;
 }
 
 #chat-ico {
-        svg {
-            
-            width: 1.6rem;
-        }
+    svg {
+        width: 1.6rem;
+    }
 }
 
 .no-image {
@@ -44,50 +41,41 @@
     background-color: #FB7A7E;
     min-height: 11rem;
     color: white;
-    
-  }
-  
+}
 
-.circle{
+.circle {
     border-radius: 50%;
-    background-color: #FB7A7E;
     height: 5rem;
     width: 5rem;
 }
 
 #circle-user {
     margin-top: 1rem;
-
     img {
         border-radius: 50%;
         height: 5rem;
         width: 5rem;
+        object-fit: cover;
     }
 }
 
 .user-container {
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: red; */
     width: 17rem;
-    
 }
 
 .user-name {
     height: 1rem;
     align-items: center;
     font-size: 15px;
-
-          p{
-            font-weight: bold;
-            font-size: 15px;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-          }
-
-
+    p {
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 .post-title {
@@ -96,26 +84,143 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-            
-        h2 {
-            width: 50%;
-        }
+    h2 {
+        width: 50%;
+    }
 }
 
 .img-container {
-	object-fit: cover;
-   	 height: auto;
-     margin-top: 2rem;
-
-              img {
-
-         width: 100%;
-    	height: auto;
-
-
-
+    object-fit: cover;
+    height: auto;
+    margin-top: 2rem;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-
-
+.aifill-heart {
+    color: #FB7A7E;
 }
+
+/* Styles for tablet screens and larger */
+@media screen and (min-width: 768px) {
+    .capsule {
+        margin-left: 13rem;
+        margin-right: 13rem;
+    }
+  
+    .post-title h2 {
+      width: 70%;
+      font-size: 20px;
+    }
+  
+    .img-container {
+      margin-top: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .capsule {
+    margin-top: 1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    border: solid 1px #dddbdb;
+    }
+    
+    .post-header {
+    border-bottom: solid 1px #d6d6d6;
+    height: 6rem;
+    }
+    
+    .post-footer {
+    border-bottom: solid 1px #d6d6d6;
+    height: 5rem;
+    svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    }
+    }
+    
+    .icon-container {
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+    }
+    
+    #chat-ico {
+    svg {
+    width: 1.2rem;
+    }
+    }
+    
+    .no-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB7A7E;
+    min-height: 8rem;
+    color: white;
+    }
+    
+    .circle {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    }
+    
+    #circle-user {
+    margin-top: 0.5rem;
+    img {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    }
+    }
+    
+    .user-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12rem;
+    }
+    
+    .user-name {
+    height: 1rem;
+    align-items: center;
+    font-size: 12px;
+    p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    }
+    }
+    
+    .post-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    h2 {
+    width: 70%;
+    font-size: 12px;
+    }
+    }
+    
+    .img-container {
+    object-fit: cover;
+    height: auto;
+    margin-top: 1rem;
+    img {
+    width: 100%;
+    height: auto;
+    }
+    }
+    
+    }
+  

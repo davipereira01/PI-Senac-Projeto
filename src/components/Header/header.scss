@@ -83,8 +83,8 @@ nav {
           transition: all 0.3s ease-in-out;
           
           &:hover {
-            color: #FFF;
-            background-color: #000;
+            color: yellow;
+            
           }
         }
       }
@@ -98,27 +98,26 @@ nav {
 
 
 @media (max-width:991px) {
-    .header {
-
-       
-
-        .user-container {
-            
-            justify-content: flex-start;
+  .header {
+    padding: 1rem;
+    height: 5rem;
+  }
+  
+  .user-img {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  nav {
+    ul {
+      gap: 10px;
+      li {
+        a {
+          font-size: 0.9rem;
         }
-
-        .btn-darkmode {
-            margin-right: 1rem;
-        }
-
-        h1 {
-            margin-left: 16%;
-            margin-top: 4%;
-        }
-
-
-
+      }
     }
+  }
 }
 
   

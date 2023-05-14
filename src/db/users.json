@@ -1,24 +1,67 @@
 [
-  {
+    {
       "id": 1,
-      "firstname": "Natane",
-      "lastname": "De Oliveira Santos",
-      "email": "suporte@suporte.com.br",
-      "senha": "senha123456789",
-      "img": "https://i.imgur.com/Jq0Ean6.jpeg",
-      "sex": "f",
-      "conections": [2, 3, 4, 5, 6, 7, 8]
-  },
-  {
-      "id": 2,
-      "firstname": "Lucas",
-      "lastname": "Silva",
-      "email": "lucas.silva@gmail.com",
+      "firstname": "Viviane",
+      "lastname": "Oliveira",
+      "email": "viviane@usuario1.com.br",
       "senha": "senha123",
-      "img": "../src/assets/user1.png",
-      "sex": "m",
-      "conections": [1, 3, 4, 5]
-  },
+      "img": "../src/assets/viviane.png",
+      "sex": "f",
+      "birthdate": "1991-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Sou advogada, mas amo tecnologia, e estou sempre disposta a conhecer pessoas novas e lugares legais. Valorizo a diversidade e gosto de lugares onde a inclusao é colocada em pratica.",
+      "connections": [2, 3, 4, 5, 6, 7, 8],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Ana Muller",
+          "text": "Conheci a Viviane em uma trilha na Serra da Cantareira, ela foi muito prestativa e simpática, além de ser uma ótima companhia para a aventura.",
+          "rating": "5",
+          "img": "../src/assets/ana.png"
+
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "rating": "5",
+          "img": "../src/assets/viviane.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Ana",
+      "lastname": "Muller",
+      "email": "ana@usuario2.com.br",
+      "senha": "senha123",
+      "img": "../src/assets/ana.png",
+      "sex": "f",
+      "birthdate": "1991-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Olá, meu nome é Ana Muller e tenho 32 anos, Gaucha que mora em São Paulo. Sou Gerente de projetos. Fora do trabalho adoro experimentar novos lugares, conhecer cidades, culturas e, principalmente, conhecer pontos turisticos que sejam autenticos e unicos. Se for pra viver uma experiencia quero vive-la de forma completa.",
+      "connections": [1, 3, 4, 5],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Viviane Silva",
+          "text": "Conheci a Ana aqui no GoOut, Desde então nos tornamos amigas e já fizemos várias viagens juntas. Ela é uma ótima companhia para qualquer aventura! ",
+          "rating": "5",
+          "img": "../src/assets/viviane.png"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "rating": "5",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
+    },
   {
       "id": 3,
       "firstname": "Bruna",
@@ -27,7 +70,28 @@
       "senha": "123456",
       "img":"../src/assets/user5.png",
       "sex": "f",
-      "conections": [1, 2, 4, 6]
+      "birthdate": "1998-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Olá, eu sou a Bruna, uma arquiteta de 24 anos apaixonada por passeios culturais. Adoro explorar a história e a arte das cidades que visito, sempre buscando por novas experiências e aprendizados. Me sinto inspirada por arquiteturas antigas e museus de arte, pois são lugares que transmitem uma energia única e me fazem refletir sobre a vida e o mundo.",
+      "connections": [1, 2, 4, 6],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Sonia",
+          "text": "Bruna é a melhor companhia para passeios culturais, ela é muito atenciosa e sempre tem ótimas dicas de lugares para visitar.",
+          "rating": "5",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "rating": "5",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
   },
   {
       "id": 4,
@@ -36,18 +100,56 @@
       "email": "gustavo.souza@hotmail.com",
       "senha": "senha12345",
       "img": "../src/assets/user8.png",
-      "sex": "m",
-      "conections": [1, 2, 3, 5, 6]
+      "sex": "f",
+      "birthdate": "1997-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Olá, sou a Vanessa, tenho 26 anos e sou apaixonada por trilhas e passeios que envolvam a natureza. Adoro explorar novos lugares, observar paisagens e sentir a brisa no rosto. Sempre que posso, tiro um tempo para me reconectar com a natureza e recarregar as energias. É uma experiência única que me faz sentir viva e em paz. Além disso, gosto de aprender sobre ecologia e sustentabilidade para contribuir com um mundo melhor.",
+      "connections": [1, 2, 3, 5, 6],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "João Silva",
+          "text": "Conheci a Vanessa em uma trilha na Serra da Cantareira, ela foi muito prestativa e simpática, além de ser uma ótima companhia para a aventura.",
+          "img": "../src/assets/bruno.png"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
   },
   {
       "id": 5,
-      "firstname": "Marina",
-      "lastname": "Silva",
+      "firstname": "Gean",
+      "lastname": "Lima",
       "email": "marina.silva@gmail.com",
       "senha": "senha123456",
       "img": "../src/assets/user3.png",
       "sex": "f",
-      "conections": [1, 2, 4, 7, 8]
+      "birthdate": "1995-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Sou advogada, mas amo tecnologia, e estou sempre disposta a conhecer pessoas novas e lugares legais. Valorizo a diversidade e gosto de lugares onde a inclusao é colocada em pratica.",
+      "connections": [1, 2, 4, 7, 8],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "João Silva",
+          "text": "Conheci o Gean em uma conferencia de tecnologia, ele foi muito prestativo e simpático, além de ser uma ótima companhia para a aventura.",
+          "img": "../src/assets/gustavo.png"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
   },
   {
       "id": 6,
@@ -57,7 +159,26 @@
       "senha": "123456789",
       "img": "../src/assets/user7.png",
       "sex": "f",
-      "conections": [1, 3, 4, 7, 9]
+      "birthdate": "1994-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Olá! Me chamo Heloisa, sou desenvolvedora front end e tenho 29 anos. Sou apaixonada por arte e tecnologia, adoro criar interfaces que unam essas duas paixões. Além disso, gosto de me inspirar em obras de arte para desenvolver designs criativos e diferenciados. Fora do trabalho, adoro visitar museus e exposições de arte, sempre buscando aprender mais e me inspirar para novos projetos.",
+      "connections": [1, 3, 4, 7, 9],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "João Silva",
+          "text": "Heloisa é incrivel, conhece os melhores lugares de São Paulo e sempre tem uma dica de um lugar novo para conhecer.",
+          "img": "../src/assets/marcos.png"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
   },
   {
       "id": 7,
@@ -67,17 +188,55 @@
       "senha": "senha1234",
       "img": "https://i.imgur.com/RqujWtt.jpeg",
       "sex": "f",
-      "conections": [1, 5, 6, 8, 9]
+      "birthdate": "1997-01-01",
+      "city": "São Paulo",
+      "state": "SP",
+      "about": "Sou advogada, mas amo tecnologia, e estou sempre disposta a conhecer pessoas novas e lugares legais. Valorizo a diversidade e gosto de lugares onde a inclusao é colocada em pratica.",
+      "conmections": [1, 5, 6, 8, 9],
+      "rating": "5",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "João Silva",
+          "text": "Sem palavras para descrever a Isabella, ela é incrivel, conhece os melhores lugares de São Paulo e sempre tem uma dica de um lugar novo para conhecer.",
+          "img": "../src/assets/ana.png"
+        },
+        {
+          "id": 2,
+          "name": "Ana Souza",
+          "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+          "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+        }
+      ]
   },
   {
     "id": 8,
-    "firstname": "Vinícius",
+    "firstname": "Gabriela",
     "lastname": "Souza",
-    "email": "vinicius.souza@gmail.com",
+    "email": "gabriela.souza@gmail.com",
     "senha": "senha1234567",
     "img": "../src/assets/user4.png",
     "sex": "m",
-    "conections": [1, 5, 7, 9]
+    "birthdate": "1999-01-01",
+    "city": "São Paulo",
+    "state": "SP",
+    "connections": [1, 5, 7, 9],
+    "about": "Sou advogada, mas amo tecnologia, e estou sempre disposta a conhecer pessoas novas e lugares legais. Valorizo a diversidade e gosto de lugares onde a inclusao é colocada em pratica.",
+    "rating": "5",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "text": "Conheci a Natane em uma trilha na Serra da Cantareira, ela foi muito prestativa e simpática, além de ser uma ótima companhia para a aventura.",
+        "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Ana Souza",
+        "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+        "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+      }
+    ]
 },
 {
     "id": 9,
@@ -85,18 +244,173 @@
     "lastname": "Rodrigues",
     "email": "fernanda.rodrigues@yahoo.com.br",
     "senha": "1234567",
-    "img": "https://i.imgur.com/eVY3K19.jpeg",
+    "img": "../src/assets/fernanda.png",
     "sex": "f",
-    "conections": [6, 7, 8, 10]
+    "birthdate": "1996-01-01",
+    "city": "São Paulo",
+    "state": "SP",
+    "about": "Sou designer de moda e adoro conhecer novas pessoas e lugares. Gosto de lugares que tenham uma boa comida e uma boa música. Adoro conhecer novas culturas e aprender novos idiomas.",
+    "connections": [1, 6, 7, 8, 10],
+    "rating": "5",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "text": "Eu amo essa menina e ela é muito legal, conhece os melhores lugares de São Paulo e sempre tem uma dica de um lugar novo para conhecer. ",
+        "img": "../src/assets/viviane.png"
+      },
+      {
+        "id": 2,
+        "name": "Ana Souza",
+        "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+        "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+      }
+    ]
 },
 {
     "id": 10,
     "firstname": "Equipe",
-    "lastname": "",
+    "lastname": "GoOut",
     "email": "equipe@hotmail.com",
     "senha": "senha12345",
     "img": "../src/assets/user6.png",
     "sex": "m",
-    "conections": [3, 5, 9]
+    "birthdate": "2023-01-01",
+    "city": "São Paulo",
+    "state": "SP",
+    "about": "Nascemos em 2023 e já Somos a rede social mais legal do mundo! Aqui você encontra pessoas e lugares incriveis de acordo com o seu interesse. Vamos conversar e GoOut!.",
+    "connections": [3, 5, 9],
+    "rating": "5",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "text": "Amo o GoOut! Aqui é a melhor rede social para encontrar pessoas e lugares .",
+        "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "Ana Souza",
+        "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+        "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+      }
+    ]
+},
+{
+  "id": 11,
+  "firstname": "Gustavo",
+  "lastname": "Feline",
+  "email": "gustavo@hotmail.com",
+  "senha": "senha12345",
+  "img": "../src/assets/gustavo.png",
+  "sex": "m",
+  "birthdate": "2023-01-01",
+  "city": "São Paulo",
+  "state": "SP",
+  "about": "Nascemos em 2023 e já Somos a rede social mais legal do mundo! Aqui você encontra pessoas e lugares incriveis de acordo com o seu interesse. Vamos conversar e GoOut!.",
+  "connections": [3, 5, 9],
+  "rating": "5",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Mariana Silva",
+      "text": "Amo o GoOut! Aqui é a melhor rede social para encontrar pessoas e lugares .",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Carol Souza",
+      "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    }
+  ]
+},
+{
+  "id": 12,
+  "firstname": "Marcos",
+  "lastname": "Reimberg",
+  "email": "marcos@hotmail.com",
+  "senha": "senha12345",
+  "img": "../src/assets/marcos.png",
+  "sex": "m",
+  "birthdate": "2023-01-01",
+  "city": "São Paulo",
+  "state": "SP",
+  "about": "Nascemos em 2023 e já Somos a rede social mais legal do mundo! Aqui você encontra pessoas e lugares incriveis de acordo com o seu interesse. Vamos conversar e GoOut!.",
+  "connections": [3, 5, 9],
+  "rating": "5",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "text": "Amo o GoOut! Aqui é a melhor rede social para encontrar pessoas e lugares .",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ana Souza",
+      "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    }
+  ]
+},
+{
+  "id": 13,
+  "firstname": "Fernando",
+  "lastname": "Santos",
+  "email": "fernando@hotmail.com",
+  "senha": "senha12345",
+  "img": "../src/assets/fernando.png",
+  "sex": "m",
+  "birthdate": "2023-01-01",
+  "city": "São Paulo",
+  "state": "SP",
+  "about": "Nascemos em 2023 e já Somos a rede social mais legal do mundo! Aqui você encontra pessoas e lugares incriveis de acordo com o seu interesse. Vamos conversar e GoOut!.",
+  "connections": [3, 5, 9],
+  "rating": "5",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "text": "Amo o GoOut! Aqui é a melhor rede social para encontrar pessoas e lugares .",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ana Souza",
+      "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    }
+  ]
+},
+{
+  "id": 14,
+  "firstname": "Bruno",
+  "lastname": "Torrentini",
+  "email": "equipe@hotmail.com",
+  "senha": "senha12345",
+  "img": "../src/assets/bruno.png",
+  "sex": "m",
+  "birthdate": "2023-01-01",
+  "city": "São Paulo",
+  "state": "SP",
+  "about": "Nascemos em 2023 e já Somos a rede social mais legal do mundo! Aqui você encontra pessoas e lugares incriveis de acordo com o seu interesse. Vamos conversar e GoOut!.",
+  "connections": [3, 5, 9],
+  "rating": "5",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "text": "Amo o GoOut! Aqui é a melhor rede social para encontrar pessoas e lugares .",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ana Souza",
+      "text": "Tive o prazer de acampar com a Natane no litoral de São Paulo, ela é muito organizada e cuidadosa com todos os detalhes. Foi uma experiência incrível!",
+      "img": "https://i.imgur.com/Jq0Ean6.jpeg"
+    }
+  ]
 }
+
 ]

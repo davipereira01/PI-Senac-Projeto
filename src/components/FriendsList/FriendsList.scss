@@ -1,0 +1,60 @@
+#friends-list {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  .friend-card {
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    width: 17rem !important;
+  
+    img {
+      border-radius: 50% !important;
+      height: 3rem !important;
+      width: 3rem !important;
+      margin-right: 10px !important;
+    }
+  
+    span {
+      margin: 0px !important;
+      padding: 0px !important;
+      font-size: 15px !important;
+      font-weight: bold !important;
+      align-self: center !important;
+    }
+  }
+
+  .card {
+    h5{
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .friend-card {
+      flex-direction: row-reverse !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      width: 100% !important;
+  
+      img {
+        height: 2rem !important;
+        width: 2rem !important;
+        margin-right: 0 !important;
+        margin-left: 10px !important;
+      }
+  
+      span {
+        font-size: 14px !important;
+        font-weight: bold !important;
+        margin-right: 10px !important;
+        align-self: center !important;
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.btn-capsule {
+    display: flex;
+}
+
+#title-categories {
+    font-size: 15px!important;
+    font-weight: 500!important;
+    text-align: center!important;
+}
+
+.explorar-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+
+    .explorar-main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 80%;
+    }
+    
+}
+
