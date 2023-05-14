@@ -24,9 +24,15 @@ Instalação:
 
 Para instalar a aplicacao siga os passos indicados a seguir:
 
-Clone o repositório do GitHub: git clone (https://github.com/davipereira01/PI-Senac-Projeto.git)
-Instale as dependências: npm install
-Inicie a aplicação: npm run dev
+Clone o repositório do GitHub: 
+
+git clone 
+
+(https://github.com/davipereira01/PI-Senac-Projeto.git)
+
+- Instale as dependências: npm install
+
+ - Inicie a aplicação: npm run dev
 
 Como Testar:
 
