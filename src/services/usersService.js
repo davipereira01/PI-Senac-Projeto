@@ -7,12 +7,14 @@ export class UsersService {
 
     static getUsers() {
         /* chama o axios, oferecendo como parametro o whitBaseUrl*/
-        /* chama o withBaseUrl, oferecendo como parametro o tipo de filme */
         
         return axios(withBaseUrl('/users.json'))
+    }
+    static async getUserById(userId) {
+      const response = await axios(withBaseUrl(`/users/${userId}.json`));
+      return response.data;
     }
 
 }
 
 export default UsersService;
-

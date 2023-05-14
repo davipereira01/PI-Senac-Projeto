@@ -15,7 +15,19 @@
     min-height: 8rem;
     align-items: center;
     justify-content: center;
-    border-top: solid 1px #e0e0e0;  
+    border-top: solid 1px #e0e0e0;
+    color: black;  
+
+    h3 {
+        font-size: 15px!important;
+        color: black;
+        margin-right: 3rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
  
 }
 
@@ -31,10 +43,11 @@
   }
 
   main {
-    margin-left: 8%;
-    margin-right: 8%;
-    width: 80%;
+
+    /* margin-right: 8%; */
+    width: 82%;
     position: relative;
+    margin: 0 auto;
 }
 
 .layout {

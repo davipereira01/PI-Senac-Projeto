@@ -1,0 +1,283 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 0px;
+  
+    .profile-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      padding-left: 14%;
+  
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        margin-right: 30px;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+  
+      .profile-name {
+        display: flex;
+        flex-direction: column;
+  
+        h2 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+  
+        p {
+          font-size: 12px;
+          margin-top: 0;
+          color: #65676b;
+        }
+      }
+    }
+
+    #svg {
+      color: yellow !important;
+    }
+
+    .teste {
+       color:yellow !important;
+       height: 2rem;
+        width: 2rem;
+    }
+
+    
+  
+    .profile-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 50px;
+      width: 100%;
+  
+      .profile-body-left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+  
+        .profile-body-left-info {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 30px;
+  
+          h3 {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 15px;
+          }
+  
+          p {
+            font-size: 20px;
+            color: #65676b;
+            margin: 0;
+          }
+        }
+      }
+  
+      .profile-body-right {
+        display: flex;
+        flex-direction: column;
+  
+        .profile-body-right-info {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 30px;
+  
+          h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+          }
+  
+          p {
+            font-size: 20px;
+            color: #65676b;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    hr {
+        width: 100%;
+        border: 1px solid #d9d9d9;
+        margin: 50px 0;
+        size: 1px;
+    }
+
+    .profile-about {
+        margin-left: 14%;
+        margin-right: 14%;
+        width: 50%;  
+                       h3{
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-bottom: 15px;
+                       }
+                          p{
+                             font-size: 12px;
+                             color: #65676b;
+                             margin: 0;
+                          }
+    }
+
+    button {
+        width: 15rem;
+        height: 3rem;
+        background-color: #fb7a7e;
+        /* margin-left: -51rem; */
+        margin-left: 14%;
+        border-radius: 4px;
+        margin-top: 0;
+    }
+
+    .testimonial {
+        margin-left: 14%;
+        margin-top: 5rem;
+
+                 h3{
+
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+
+                 }
+    } 
+    .testimonial-card {
+      
+    }
+
+    .testimonial-img {
+  
+    }
+    .testimonial-img img {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .testimonial-baloon {
+      margin-top: 2rem;
+      background-color: #FCF7F7;
+      padding: 1rem;
+      border-radius: 15px;
+      font-size: 12px;
+      width: 21rem;
+    }
+  }
+
+  /* Estilo para dispositivos móveis */
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    margin-top: 0px;
+  }
+
+  .profile-header {
+    padding-left: 8%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile .profile-header .profile-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    align-items: flex-start;
+  }
+
+  .rating {
+    margin-left: -0rem;
+  }
+
+  .profile-img {
+    width: 6rem!important;
+    height: 6rem!important;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile-name {
+    margin-bottom: 20px;
+  }
+
+  .profile-body {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .profile-body-left {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .profile-body-right {
+    margin-bottom: 30px;
+  }
+
+  .profile-about {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .testimonial {
+    margin-left: 8%;
+    margin-top: 50px;
+  }
+
+  .testimonial-baloon {
+    margin-left: 0rem;
+    width: 19rem!important;
+  }
+
+ .profile .testimonial-img img {
+    width: 4rem;
+    height: 4rem;
+  
+  }
+
+  .testimonial-img {
+  
+  } 
+
+  .profile .teste {
+    color: yellow !important;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+  }
+
+  #role-btn {
+    width: 73% ;
+    border-radius: 10px;
+    height: 35px;
+  }
+  .profile .profile-about {
+    width: 75%;
+  }
+
+
+}
+
+  
