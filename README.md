@@ -7,7 +7,13 @@ A rede Social GoOut Foi pensada e desenvolvida para possibilitar que os usuarios
 Essa aplicacao foi criada em React JS, 
 
 Integrantes
-Escreva aqui o nome de todos os integrantes do grupo.
+André Luiz Pereira Coimbra
+Daniel Carvalho da Conceicao 
+Davi Da Silva Pereira
+Diego Luiz Da Silva 
+Jonathan Pinto de Moraes
+Lucas Ruiz Munhos Chiaca
+
 Instalação
 Para instalar a aplicacao siga os passos indicados a seguir:
 
