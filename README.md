@@ -18,7 +18,7 @@ Diego Luiz Da Silva,
 
 Jonathan Pinto de Moraes,
 
-Lucas Ruiz Munhos Chiaca,
+Lucas Ruiz Munhoz Chiaça,
 
 Instalação:
 
