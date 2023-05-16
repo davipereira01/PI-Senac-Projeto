@@ -1,0 +1,13 @@
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\services\exceptions\ResourceNotFoundException.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\BackendApplication.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\resources\exceptions\StandardError.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\repositories\UserRepository.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\services\UserService.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\entities\User.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\dto\UserDTO.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\resources\exceptions\ResourceExceptionHandler.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\entities\Connection.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\services\exceptions\DataBaseException.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\entities\Testimonial.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\resources\UserResource.java
+B:\ProjetoIntegrador2v\backend\src\main\java\com\projetointegrador\backend\entities\Connections.java

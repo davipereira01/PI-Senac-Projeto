@@ -1,0 +1,13 @@
+com\projetointegrador\backend\entities\Connection.class
+com\projetointegrador\backend\dto\UserDTO.class
+com\projetointegrador\backend\services\exceptions\DataBaseException.class
+com\projetointegrador\backend\resources\exceptions\ResourceExceptionHandler.class
+com\projetointegrador\backend\services\UserService.class
+com\projetointegrador\backend\resources\UserResource.class
+com\projetointegrador\backend\entities\User.class
+com\projetointegrador\backend\entities\Connections.class
+com\projetointegrador\backend\resources\exceptions\StandardError.class
+com\projetointegrador\backend\entities\Testimonial.class
+com\projetointegrador\backend\repositories\UserRepository.class
+com\projetointegrador\backend\BackendApplication.class
+com\projetointegrador\backend\services\exceptions\ResourceNotFoundException.class
