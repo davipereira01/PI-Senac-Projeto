@@ -30,6 +30,8 @@ git clone
 
 (https://github.com/davipereira01/PI-Senac-Projeto.git)
 
+*Antes de prosseguir, abra o projeto e recorte a pasta "Backend" e cole em outro local. 
+
 - Instale as dependências: npm install
 
  - Inicie a aplicação: npm run dev
