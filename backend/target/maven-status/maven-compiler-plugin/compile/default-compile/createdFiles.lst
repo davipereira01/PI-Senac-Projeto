@@ -1,5 +1,0 @@
-com\projetointegrador\backend\entities\Connections.class
-com\projetointegrador\backend\dto\UserDTO.class
-com\projetointegrador\backend\repositories\UserRepository.class
-com\projetointegrador\backend\services\UserService.class
-com\projetointegrador\backend\entities\User.class
