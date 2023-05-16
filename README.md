@@ -34,6 +34,13 @@ git clone
 
  - Inicie a aplicação: npm run dev
 
+
+Veja a aplicacão em funcionamento:
+
+https://www.youtube.com/watch?v=nRxdSQw2yzo
+
+
+
 Como Testar:
 
 - Abra o navegador e vá para http://localhost:5173/
