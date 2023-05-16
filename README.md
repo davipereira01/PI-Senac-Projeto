@@ -32,8 +32,14 @@ git clone
 
 *Antes de prosseguir, abra o projeto e recorte a pasta "Backend" e cole em outro local. 
 
-- Instale as dependências: npm install
+RODANDO O BACKEND DA APLICAÇÃO:
 
+Esta aplicação usa Java 17, Spring 3.0.6 e Banco Virtual H2. 
+O motor de backend roda na porta padrão localhost:8080 e o banco H2 funciona na porta localhost:8081 
+
+RODANDO FRONT END DA APLICAÇÃO:
+
+ - Instale as dependências: npm install
  - Inicie a aplicação: npm run dev
 
 
@@ -52,7 +58,6 @@ Como Testar:
 email": "viviane@usuario1.com.br",
 "senha": "senha123",
 
-e
 
 email": "ana@usuario2.com.br",
 "senha": "senha123",
